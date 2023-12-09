@@ -7,7 +7,7 @@ class Solution {
         
         // check for first occurence if target first
         int start = search(nums, target, true);
-        // check for last occurence if target first
+        // check for last occurence if target last
         int end = search(nums, target, false);
 
         ans[0] = start;
